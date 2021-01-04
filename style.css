@@ -1,9 +1,106 @@
+
+/* Global css egula  */
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
-h1{
-    font-size: 50px;
+section{
+    height: 500px;
+    margin: 20px 0;
+}
+.khali-jayga{
+    margin: 30px 0;
 }
 .name-highlight{
     color: orange;
 }
+p{
+    color: gray;
+}
+
+
+
+
+
+/* button design */
+.link-button{
+    background-image: linear-gradient(to left, #ffab91,#ff9879);
+    text-decoration: none;
+    padding: 10px 30px;
+    color: white;
+    font-weight: 800;
+    border-radius: 8px;
+}
+
+/* head banner part started */
+h1{
+    font-size: 50px;
+}
+
+.head-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 4%;
+    padding-left: 2%;
+    height: 100%;
+}
+.half-width img{
+    height: 100%;
+}
+/* head banner part end */
+
+
+/* mid banner part start */
+.mid-banner{
+    padding: 20px;
+    margin: 20px;
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position:  right center;
+}
+/* mid banner part end */
+
+
+
+/* bottom banner part start */
+.bottom-banner{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.bottom-banner h1{
+    font-size: 40px;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    height: 70%;
+    border-radius: 10px;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient( salmon, tomato);
+    border-image-slice: 1;
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient( rgb(4, 7, 190), rgb(0, 225, 255));
+    border-image-slice: 1;
+}
+
+/* bottom banner part end */
+
+/* footer part start */
+footer p{
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: gray;
+}
+/* footer part end */
